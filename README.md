@@ -2,11 +2,11 @@
 
 This project contains a dataset and basic scripts for managing student records, originally structured for **MongoDB** and exported to **CSV** format for analysis and migration purposes.
 
-## ## Overview
+## Overview
 
 The repository features a collection of student data, including unique identifiers, names, ages, and their respective academic programs. This is a typical example used for practicing **NoSQL database operations**, data cleaning, and exploratory data analysis (EDA).
 
-## ## Dataset Structure
+## Dataset Structure
 
 The primary data is stored in `BD_CursoMongo.Estudiantes.csv`. The schema includes:
 
@@ -17,13 +17,13 @@ The primary data is stored in `BD_CursoMongo.Estudiantes.csv`. The schema includ
 | `edad` | Student's age |
 | `carrera` | Academic major / Program |
 
-## ## Key Features
+## Key Features
 
 * **Data Cleaning:** Handles inconsistencies in naming conventions (e.g., "Ciencia de datos" vs "Ciencia de Datos").
 * **Schema Validation:** Example of how MongoDB documents are structured before being flattened into CSV.
 * **Query Practice:** Ideal for practicing **SQL** (via SQLite/PostgreSQL) or **NoSQL** (via MongoDB Compass/Shell) queries.
 
-## ## How to Use
+## How to Use
 
 1. **Clone the repository:**
    ```bash
@@ -42,6 +42,6 @@ The primary data is stored in `BD_CursoMongo.Estudiantes.csv`. The schema includ
    print(df.head())
    ```
 
-## ## Author
+## Author
 
 David Ricardo Castro Gonzalez
